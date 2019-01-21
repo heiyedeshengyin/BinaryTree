@@ -1,6 +1,6 @@
 # BinaryTree
+其它数据结构:[二叉搜索树](https://github.com/heiyedeshengyin/BinarySearchTree) [链表](https://github.com/heiyedeshengyin/LinkedList) [双链表](https://github.com/heiyedeshengyin/DoublyLinkedList)
 
-[二叉搜索树](https://github.com/heiyedeshengyin/BinarySearchTree) [链表](https://github.com/heiyedeshengyin/LinkedList) [双链表](https://github.com/heiyedeshengyin/DoublyLinkedList)
 ### 简介
 二叉树,基本的数据结构  
 二叉树中每个结点的度数不超过2  
