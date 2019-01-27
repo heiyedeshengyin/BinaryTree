@@ -94,6 +94,7 @@ void distoryBiTree(TreeNode<T>* &root)
 		left = root->left;
 		right = root->right;
 		delete root;
+		root = NULL;
 		if (left)
 			distoryBiTree(left);
 		if (right)
