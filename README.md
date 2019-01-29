@@ -37,10 +37,10 @@ BinaryTree();	//无参构造函数
 BinaryTree(T x);	//有参构造函数  
 ~BinaryTree();	//析构函数  
 void creatBiTree();	//按流程创建二叉树  
-vector<T> PerOrderTraverse();	//先序遍历  
-vector<T> InOrderTraverse();	//中序遍历  
-vector<T> PostOrderTraverse();	//后序遍历  
-vector<T> LevelOrderTraverse();	//层序遍历  
+vector\<T\> PerOrderTraverse();	//先序遍历  
+vector\<T\> InOrderTraverse();	//中序遍历  
+vector\<T\> PostOrderTraverse();	//后序遍历  
+vector\<T\> LevelOrderTraverse();	//层序遍历  
 int getHeight();	//获取二叉树的高度  
 int getSize();	//获取二叉树的结点个数  
 
