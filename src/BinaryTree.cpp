@@ -85,7 +85,7 @@ BinaryTree<T>::BinaryTree(T x)
 	@Return void
 */
 template <typename T>
-void distoryBiTree(TreeNode<T>* &root)
+void destroyBiTree(TreeNode<T>* &root)
 {
 	if (root)
 	{
@@ -96,9 +96,9 @@ void distoryBiTree(TreeNode<T>* &root)
 		delete root;
 		root = NULL;
 		if (left)
-			distoryBiTree(left);
+			destroyBiTree(left);
 		if (right)
-			distoryBiTree(right);
+			destroyBiTree(right);
 	}
 }
 
@@ -109,7 +109,7 @@ void distoryBiTree(TreeNode<T>* &root)
 template <typename T>
 BinaryTree<T>::~BinaryTree()
 {
-	distoryBiTree(root);
+	destroyBiTree(root);
 }
 
 //------------------------------------------------------
